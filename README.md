@@ -4,13 +4,13 @@
 
 Você provavelmente já usou Excel intensamente. O pacote pandas é o seu novo melhor amigo.
 
-+ Leia planilhas:
+** Leia planilhas:
 
     import pandas as pd
     df = pd.read_excel("vendas.xlsx")
     print(df.head())
 
-Filtre e agrupe dados como no Excel:
+** Filtre e agrupe dados como no Excel:
 
     total_por_vendedor = df.groupby("Vendedor")["Valor"].sum()
 
@@ -18,7 +18,7 @@ Filtre e agrupe dados como no Excel:
 
 Rotinas como gerar relatórios, e-mails ou consolidar arquivos podem ser automatizadas com Python.
 
-Exemplo: juntar vários arquivos Excel em um só:
+** Exemplo: juntar vários arquivos Excel em um só:
 
     import pandas as pd
     import glob
@@ -50,21 +50,21 @@ Com scikit-learn, você pode fazer previsões de vendas, churn, etc.
 
 🤖 5. Integre Python com ferramentas que você já usa
 
-Enviar e-mails com smtplib
+* Enviar e-mails com smtplib
 
-Conectar ao banco de dados com sqlalchemy
+* Conectar ao banco de dados com sqlalchemy
 
-Trabalhar com Google Sheets com gspread
+* Trabalhar com Google Sheets com gspread
 
 📚 6. Pratique com projetos reais de administração
 
 Ideias:
 
-Dashboard de controle financeiro com Streamlit
+* Dashboard de controle financeiro com Streamlit
 
-Automatização de DRE
+* Automatização de DRE
 
-Análise de performance de vendas
+* Análise de performance de vendas
 
-Simulador de fluxo de caixa
+* Simulador de fluxo de caixa
 
