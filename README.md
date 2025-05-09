@@ -6,6 +6,7 @@ Você provavelmente já usou Excel intensamente. O pacote pandas é o seu novo m
 
 * Leia planilhas:
 
+
     import pandas as pd
     df = pd.read_excel("vendas.xlsx")
     print(df.head())
