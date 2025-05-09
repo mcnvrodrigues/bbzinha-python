@@ -4,7 +4,7 @@
 
 Você provavelmente já usou Excel intensamente. O pacote pandas é o seu novo melhor amigo.
 
-Leia planilhas:
+ - Leia planilhas:
 
     import pandas as pd
     df = pd.read_excel("vendas.xlsx")
